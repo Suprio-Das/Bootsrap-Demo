@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+.background-gradient{
+    background-image: linear-gradient(90deg,#2937f0,#9f1ae2);
+}
+.highlight-color{
+    color: #2937f0;
+}
+.main-menu{
+    height: 80px;
+}
+.banner{
+    min-height: calc(100vh - 80px);
+    /* min-height: 550px; */
+}
+
+.new-web-design{
+    min-height: 100vh;
+}
+.stop-waiting{
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    min-height: 100vh;
+    background-size: cover;
+}
